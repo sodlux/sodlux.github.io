@@ -2,19 +2,82 @@
 <html lang="en">
 <head>
   <title> ~ </title>
-  
+
   <style type="text/css">
-    @import url("http://cdn.jsdelivr.net/font-hack/2.019/css/hack-extended.min.css");
-    
+    @import url(https://fonts.googleapis.com/css?family=Lato:300italic,300);
+
     html {
-      background-color: rgb(255, 255, 255); 
-      font-family: 'Hack';
+      background-color: rgb(25, 25, 25);
+      color: rgb(200, 200, 200);
+      font-family: "Lato", sans-serif;
     }
+
+    .container {
+      margin: 150px auto;
+      width: 700px;
+    }
+
+    .quote {
+      font-size: 3em;
+      font-style: italic;
+      text-align: justify;
+    }
+
+    .cite {
+      color: rgb(100, 100, 100);
+      font-size: 2em;
+      font-style: italic;
+      text-align: right;
+    }
+
+    .cite a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .cite a:hover {
+      color: rgb(150, 100, 100);
+    }
+
+    /*****************************
+
+    #footer {
+      margin-top: 100px;
+    }
+
+    .info {
+      color: rgb(150, 150, 150);
+      font-size: 1em;
+      text-align: center;
+    }
+
+    .info a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .info a:hover {
+      color: rgb(150, 100, 100);
+    }
+
+    *****************************/
+
   </style>
 </head>
 <body>
   <div class="container">
-    <h1> sodlux </h1>
+      <div class="quote">Talk is cheap. Show me the code.</div>
+      <div class="cite">
+        <a href="https://github.com/torvalds">Linus Torvalds</a>
+      </div>
+    <!--
+      <div id="footer">
+        <div class="info">
+          <a href="https://github.com/sodlux">sodlux</a>
+          (<a href="mailto:sodlux@tuta.io">sodlux@tuta.io</a>)
+        </div>
+      </div>
+    -->
   </div>
 </body>
 </html>
